@@ -1,1 +1,14 @@
+on:
+  push:
+    branches:
+      -master
 
+
+
+jobs:
+  build:
+    run-on: ubunto-latest
+
+    steps:
+      -name: "Testing Printing"
+        run: echo Ahmed
