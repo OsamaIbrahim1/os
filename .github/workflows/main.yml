@@ -10,5 +10,8 @@ jobs:
     run-on: ubunto-latest
 
     steps:
-      -name: "Testing Printing"
+      - name: "Testing Github action"
+        run: pwd
+
+      - name: "Testing Printing"
         run: echo Ahmed
