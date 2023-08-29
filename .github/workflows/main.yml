@@ -1,13 +1,13 @@
 on:
   push:
     branches:
-      - master
+    - master
 
 
 
 jobs:
   build:
-    run-on: ubunto-latest
+    run-on: ubuntu-latest
 
     steps:
       - name: "Testing Github action"
